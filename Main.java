@@ -8,8 +8,10 @@ public class Main {
 	// write your code here
         int t;
         Scanner sc = new Scanner(System.in);
+	System.out.println("Enter number of bookings: ");
         t=sc.nextInt();
         Ticket obj = new Ticket();
+	System.out.println("Enter available tickets: ");
         int avatickets = sc.nextInt();
         obj.setAvailableTickets(avatickets);
         for(int i=0;i<t;i++){
